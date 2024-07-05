@@ -14,18 +14,28 @@ const io = new Server(expressServer, {
 })
 
 io.on('connection', (socket) => {
-    console.log(socket.handshake.headers.host, ' has joined our server!');
-
-    socket.emit('message', 'You are now connected to the contractor');
-
-    socket.on('disconnect', () => {
-        console.log('A user disconnected');
-    })
-
-    io.emit('newClient', socket.id);
+    console.log('A user connected');
   
-    socket.on('message', (message) => {
-      console.log(message);
-      io.emit('message', message); // Correctly emit the message to all clients
+    // Join a specific room
+    socket.on('joinRoom', ({ userName, room }) => {
+      socket.join(room);
+      socket.userName = userName;
+  
+      // Send a welcome message to the user
+      socket.emit('message', 'You are now connected to an agent');
+  
+      // Broadcast when a user connects
+      socket.broadcast.to(room).emit('message', `${userName} has joined the chat`);
+  
+      // Listen for chat messages
+      socket.on('message', (msg) => {
+        io.to(room).emit('message', `${socket.userName}: ${msg}`);
+      });
+  
+      // Runs when client disconnects
+      socket.on('disconnect', () => {
+        io.to(room).emit('message', `${socket.userName} has left the chat`);
+      });
     });
   });
+  
