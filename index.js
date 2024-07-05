@@ -1,12 +1,14 @@
 import express from 'express'
 import { Server } from 'socket.io';
 import cors from 'cors'
+import 'dot/env'
 
+const PORT = process.env.PORT || 8080;
 const app = express();
 app.use(cors())
 app.use(express.static('public'))
 
-const expressServer = app.listen(8080, ()=> console.log('Server is running on 8080'))
+const expressServer = app.listen(PORT, ()=> console.log('Server is running on 8080'))
 
 const io = new Server(expressServer, {
     cors:true,
