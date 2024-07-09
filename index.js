@@ -2,17 +2,19 @@ import express from 'express'
 import { Server } from 'socket.io';
 import cors from 'cors'
 import 'dotenv/config'
+import projectRoutes from './routes/projectRoutes.js'
+import router from './routes/projectRoutes.js';
 
 const PORT = process.env.PORT || 8080;
 const app = express();
 app.use(cors())
+app.use(express.json())
 app.use(express.static('public'))
+app.use('/projects', projectRoutes)
 
 const expressServer = app.listen(PORT, ()=> console.log('Server is running on 8080'))
-
 const io = new Server(expressServer, {
     cors:true,
-
 })
 
 io.on('connection', (socket) => {
