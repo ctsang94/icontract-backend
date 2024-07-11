@@ -4,7 +4,7 @@
         "skills": ["Plumbing", "Electrical", "Carpentry"],
         "rating": 4.2,
         "reviews": 45,
-        "image": "https://icontract-backend.onrender.comimages/image0.jpg"
+        "image": "https://icontract-backend.onrender.com/images/image0.jpg"
     },
     {
         "name": "Jane Smith",
