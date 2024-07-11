@@ -4,7 +4,7 @@
         "projectDescription": "Complete kitchen remodel including new appliances, cabinets, and countertops.",
         "estimatedBudget": 25000,
         "preferredStartDate": "2024-08-01",
-        "image": "http://localhost:5050/images/homereno1.jpeg",
+        "image": "https://icontract-backend.onrender.com/images/homereno1.jpeg",
         "quotes": 3,
         "message": 5,
         "status": "In progress"
@@ -14,7 +14,7 @@
         "projectDescription": "Bathroom renovation with new fixtures, tile work, and a walk-in shower.",
         "estimatedBudget": 15000,
         "preferredStartDate": "2024-09-01",
-        "image": "http://localhost:5050/images/homereno2.jpeg",
+        "image": "https://icontract-backend.onrender.com/images/homereno2.jpeg",
         "quotes": 2,
         "message": 3,
         "status": "Not started"
@@ -24,7 +24,7 @@
         "projectDescription": "Convert the basement into a home theater and game room.",
         "estimatedBudget": 20000,
         "preferredStartDate": "2024-10-01",
-        "image": "http://localhost:5050/images/homereno3.jpeg",
+        "image": "https://icontract-backend.onrender.com/images/homereno3.jpeg",
         "quotes": 4,
         "message": 6,
         "status": "In progress"
@@ -34,7 +34,7 @@
         "projectDescription": "Add a deck and outdoor kitchen to the backyard.",
         "estimatedBudget": 18000,
         "preferredStartDate": "2024-08-15",
-        "image": "http://localhost:5050/images/homereno1.jpeg",
+        "image": "https://icontract-backend.onrender.com/images/homereno1.jpeg",
         "quotes": 1,
         "message": 2,
         "status": "Not started"
@@ -44,7 +44,7 @@
         "projectDescription": "Install energy-efficient windows and insulation throughout the house.",
         "estimatedBudget": 12000,
         "preferredStartDate": "2024-09-15",
-        "image": "http://localhost:5050/images/homereno4.jpeg",
+        "image": "https://icontract-backend.onrender.com/images/homereno4.jpeg",
         "quotes": 5,
         "message": 4,
         "status": "In progress"
@@ -54,7 +54,7 @@
         "projectDescription": "I want to install a driveway path to my garage",
         "estimatedBudget": 2000,
         "preferredStartDate": "8/23/2024",
-        "image": "http://localhost:5050/images/homereno2.jpeg",
+        "image": "https://icontract-backend.onrender.com/images/homereno2.jpeg",
         "quotes": 3,
         "message": 1,
         "status": "Not started"
