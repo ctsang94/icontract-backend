@@ -3,14 +3,16 @@ import { Server } from 'socket.io';
 import cors from 'cors';
 import 'dotenv/config';
 import projectRoutes from './routes/projectRoutes.js';
+import contractorRoutes from './routes/contractorRoutes.js';
 
 const app = express();
 app.use(cors());
 app.use(express.json());
 app.use(express.static('public'));
 app.use('/projects', projectRoutes);
+app.use('/contractors', contractorRoutes)
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 5050;
 const expressServer = app.listen(PORT, () => console.log(`Server is running on ${PORT}`));
 const io = new Server(expressServer, {
   cors: true

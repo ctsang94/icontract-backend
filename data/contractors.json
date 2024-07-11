@@ -1,0 +1,72 @@
+[
+    {
+        "name": "John Doe",
+        "skills": ["Plumbing", "Electrical", "Carpentry"],
+        "rating": 4.2,
+        "reviews": 45,
+        "image": "http://localhost:5050/images/image0.jpg"
+    },
+    {
+        "name": "Jane Smith",
+        "skills": ["Painting", "Tiling", "Landscaping"],
+        "rating": 4.8,
+        "reviews": 67,
+        "image": "http://localhost:5050/images/image1.jpg"
+    },
+    {
+        "name": "Michael Johnson",
+        "skills": ["Roofing", "Siding", "Insulation"],
+        "rating": 3.9,
+        "reviews": 30,
+        "image": "http://localhost:5050/images/image2.jpg"
+    },
+    {
+        "name": "Emily Davis",
+        "skills": ["Flooring", "Drywall", "Framing"],
+        "rating": 4.5,
+        "reviews": 52,
+        "image": "http://localhost:5050/images/image3.jpg"
+    },
+    {
+        "name": "James Brown",
+        "skills": ["HVAC", "Concrete", "Masonry"],
+        "rating": 4.1,
+        "reviews": 29,
+        "image": "http://localhost:5050/images/image4.jpg"
+    },
+    {
+        "name": "Patricia Wilson",
+        "skills": ["Windows", "Doors", "Cabinetry"],
+        "rating": 4.7,
+        "reviews": 83,
+        "image": "http://localhost:5050/images/image5.jpg"
+    },
+    {
+        "name": "Robert Martinez",
+        "skills": ["Decks", "Fencing", "Pergolas"],
+        "rating": 3.8,
+        "reviews": 24,
+        "image": "http://localhost:5050/images/image6.jpg"
+    },
+    {
+        "name": "Linda Anderson",
+        "skills": ["Remodeling", "Additions", "Basements"],
+        "rating": 4.6,
+        "reviews": 60,
+        "image": "http://localhost:5050/images/image7.jpg"
+    },
+    {
+        "name": "David Thomas",
+        "skills": ["Demolition", "Excavation", "Grading"],
+        "rating": 4.0,
+        "reviews": 38,
+        "image": "http://localhost:5050/images/image8.jpg"
+    },
+    {
+        "name": "Sarah Jackson",
+        "skills": ["Solar Installation", "Electrical", "Plumbing"],
+        "rating": 4.3,
+        "reviews": 50,
+        "image": "http://localhost:5050/images/image9.jpg"
+    }
+]
